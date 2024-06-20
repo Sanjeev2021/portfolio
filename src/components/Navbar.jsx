@@ -27,8 +27,8 @@ const Navbar = () => {
           <div className="flex items-center gap-2">
             <Image src={logo} alt="logo" className="w-9 h-9 object-contain" />
             <p className="text-white tet-[18px] font-bold cursor-pointer flex">
-              Sanjeev &nbsp;
-              <span className =" sm:block hidden"> | Yadav </span>
+              Swabhav Techlabs &nbsp;
+              <span className =" sm:block hidden"> </span>
             </p>
           </div>
         </Link>

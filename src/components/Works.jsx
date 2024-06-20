@@ -27,7 +27,7 @@ const ProjectCard = ({
           speed: 450,
         }}
       >
-        <div className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full">
+        <div className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full border-2 border-[#E6892A]">
           <div className="relative w-full h-[230px]">
             <img
               src={image.src}
@@ -74,8 +74,9 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>My work</p>
-        <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
+        <h2 className={`${styles.sectionHeadText}`}>
+          AI in action - Real World applications.
+        </h2>
       </motion.div>
 
       <div className="w-full flex">
@@ -83,11 +84,13 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          Following projects showcases my skills and experience through
-          real-world examples of my work. Each project is briefly described with
-          links to code repositories and live demos in it. It reflects my
-          ability to solve complex problems, work with different technologies,
-          and manage projects effectively.
+          AI in action showcases the transformative power of artificial
+          intelligence across diverse real-world applications. From enhancing
+          healthcare diagnostics to optimizing supply chain logistics, AI-driven
+          solutions revolutionize industries by unlocking insights, automating
+          processes, and enabling data-driven decision-making. Explore how AI
+          technologies are reshaping the future, driving innovation, and
+          delivering tangible benefits in various domains.
         </motion.p>
       </div>
 
