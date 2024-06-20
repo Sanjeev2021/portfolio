@@ -7,6 +7,8 @@ import Tech from '../components/Tech';
 import Works from '../components/Works';
 import Contact from '../components/Contact';
 import StarCanvas from '../components/canvas/Stars';
+import Revolution from '../components/Revolution'
+import Enabled from '../components/Enabled';
 
 const App = () => {
   return (
@@ -15,6 +17,8 @@ const App = () => {
         <Navbar />
         <Hero />
       </div>
+      <Revolution />
+      <Enabled />
       <About />
       {/* <Experience /> */}
       {/* <Tech /> */}

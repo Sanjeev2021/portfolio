@@ -15,14 +15,14 @@ const Hero = () => {
           <div className="w-1 sm:h-80 h-40 violet-gradient" />
         </div>
         <div>
-          <h3 className={`${styles.heroHeadText} text-white`}>
+          <h3 className={`${styles.heroHeadText} text-white w-[80%]`}>
             Transform Your Business with &nbsp;
-            <span className="text-[#915eff]">AI-Driven</span>&nbsp; Insights and
+            <span className="text-[#915eff] inline-block">AI-Driven</span>&nbsp; Insights and
             Solutions{" "}
           </h3>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+          <p className={`${styles.heroSubText} mt-2 text-gray-500 `}>
             Your Journey To Tomorrow <br className="sm:block hidden" />
-            Begins Here !
+            Begins Here!
           </p>
           <button className="mt-4 px-8 py-3 bg-[#915eff] text-white rounded-md hover:bg-[#7a48e0] transition duration-300 text-lg">
             See AI in Action
